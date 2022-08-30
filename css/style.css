@@ -1,0 +1,116 @@
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+h1 ,h2, h3, h4, h5, h6, p {
+    margin: 0;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+img {
+   object-fit: cover; 
+}
+
+*:focus {outline: none}
+
+button {
+    cursor: pointer;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 21px;
+    line-height: 32px;
+    background-color: #141c24;
+    color: #ababab;
+}
+
+.container {
+    max-width: 1230px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.header {
+    padding-top: 52px;
+    padding-bottom: 49px;
+}
+
+.header__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__menu {
+    display: flex;
+    gap: 47px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 29px;
+}
+
+
+.cloud-gaming__inner {
+    display: flex;
+    justify-content: space-between;
+    gap: 66px;
+    align-items: center;
+}
+
+.cloud-gaming__img {
+    max-width: 600px;
+}
+
+.title {
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 29px;
+    color: #57d6ff;
+    margin-bottom: 17px;
+}
+
+.title:before {
+    content: "";
+    display: inline-block;
+    border-top: 1px solid #57d6ff;
+    width: 50px;
+    margin-bottom: 4px;
+    margin-right: 34px;
+}
+
+.subtitle {
+    font-weight: 400;
+    font-size: 39px;
+    line-height: 39px;
+    color: #fff;
+    margin-bottom: 60px;
+}
+
+.cloud-gaming__text + .cloud-gaming__text {
+    margin-top: 49px;
+}
+
+.cloud-gaming__text:nth-child(2) {
+    margin-bottom: 74px;
+}
+
+.cloud-gaming__btn {
+    color: #57d6ff;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+}
